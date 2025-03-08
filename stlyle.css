@@ -1,0 +1,22 @@
+.item1 {
+    background: #000;  /* Fond noir */
+    color: white;       /* Texte en blanc pour qu'il soit visible */
+    margin: 10px;       /* Espacement autour de l'élément */
+    width: 100px;       /* Largeur plus grande pour mieux voir */
+    height: 30px;       /* Ajout d'une hauteur pour un meilleur rendu */
+    text-align: center; /* Centrer le texte */
+    line-height: 30px;  /* Aligner verticalement le texte */
+    border-radius: 5px; /* Coins arrondis pour un meilleur design */
+}
+ul {
+    list-style-type: none; /* Retirer les puces par défaut */
+    padding-left: 20px; /* Décalage à gauche pour les sous-items */
+}
+
+ul li {
+    margin: 5px 0; /* Un peu d'espace entre les sous-items */
+}
+.completed {
+    text-decoration: line-through;
+    color: grey;
+} 

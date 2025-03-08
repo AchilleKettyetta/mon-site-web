@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stlyle.css">
+    <title>Mon Site</title>
+</head>
+<body>
+
+    <div id="header">Mon Site</div>
+    
+    <div class="page">
+        <!-- Champ de recherche -->
+        <input type="text" id="search-input" placeholder="Rechercher un item..." />
+
+        <ul id="nav">
+            <!-- Exemples d'items avec boutons pour interagir -->
+            <li class="item">
+                Item 1
+                <button class="delete-button">Supprimer</button>
+                <button class="rename-button">Renommer</button>
+                <button class="add-subitem">Ajouter un sous-item</button>
+                <!-- Sous-items possibles -->
+                <ul></ul>
+            </li>
+            <li class="item">
+                Item 2
+                <button class="delete-button">Supprimer</button>
+                <button class="rename-button">Renommer</button>
+                <button class="add-subitem">Ajouter un sous-item</button>
+                <ul></ul>
+            </li>
+            <li class="item">
+                Item 3
+                <button class="delete-button">Supprimer</button>
+                <button class="rename-button">Renommer</button>
+                <button class="add-subitem">Ajouter un sous-item</button>
+                <ul></ul>
+            </li>
+            <li class="item">
+                Item 4
+                <button class="delete-button">Supprimer</button>
+                <button class="rename-button">Renommer</button>
+                <button class="add-subitem">Ajouter un sous-item</button>
+                <ul></ul>
+            </li>
+        </ul>
+    </div>
+
+    <div id="footer" class="class1">Pied de page</div>
+
+    <!-- Bouton pour ajouter un item -->
+    <button id="add-button">Ajouter un item</button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
